@@ -1,0 +1,286 @@
+<!DOCTYPE html PUBLIC>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Front End Code Examples</title>
+</head>
+
+<body>
+
+
+	<style>
+
+
+
+/* DESKTOP */
+
+	img{
+		width: 100%;
+		min-height: 100%;
+	}
+
+  @media screen and (min-width : 1224px){
+
+	#question3 {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		grid-gap: 10px;
+	 }
+
+	 .container-box.one{
+		text-align: right;
+		grid-column: 1/ span 4;
+		grid-row: 1/ span 4;
+	}
+
+	.container-box.two{
+		grid-column: 5/ span 2;
+		grid-row: 1/ span 2;
+	}
+
+	.container-box.three{
+		background: #357EC7;
+		color: white;
+		padding-right: 20px;
+		text-align: right;
+		grid-column: 7/ span 2;
+		grid-row: 1/ span 2;
+	}
+
+	.container-box.four{
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		background: #282828;
+		grid-column: 5/ span 2;
+		grid-row: 3/ span 2;
+	}
+
+	.container-box.five{
+		grid-column: 7/ span 2;
+		grid-row: 3/ span 2;
+	}
+
+	.firstbox{
+			grid-column: 5/ span 1;
+			grid-row: 3/ span 1;
+	}
+	.secondbox{
+			grid-column: 6/ span 1;
+			grid-row: 3/ span 1;
+	}
+	.thirdbox{
+			grid-gap: 10px;
+			grid-column: 5/ span 1;
+			grid-row: 4/ span 1;
+	}
+	.fourthbox{
+			grid-column: 6/ span 1;
+			grid-row: 4/ span 1;
+	}
+
+}
+
+
+/* TABLET */
+ @media screen and (min-width : 481px)
+	and (max-width : 1223px) {
+
+  #question3 {
+	 display: grid;
+	 grid-template-columns: auto auto auto auto;
+	 grid-gap: 10px;
+  }
+
+
+ .container-box.one{
+	 text-align: right;
+	 grid-column: 1/ span 4;
+	 grid-row: 1/ span 4;
+ }
+
+ .container-box.two{
+	 grid-column: 1/ span 2;
+	 grid-row: 5/ span 2;
+ }
+
+ .container-box.three{
+	 background: #357EC7;
+	 color: white;
+	 display: grid;
+	 padding-right: 20px;
+	 text-align: right;
+	 grid-column: 3/ span 2;
+	 grid-row: 5/ span 2;
+ }
+
+ .container-box.four{
+
+	 display: grid;
+	 grid-template-columns: auto auto auto auto;
+
+	 background: #282828;
+	 grid-column: 1/ span 2;
+	 grid-row: 7/ span 2;
+ }
+
+	 .container-box.five{
+		 grid-column: 3/ span 2;
+		 grid-row: 7/ span 2;
+	 }
+
+		.firstbox{
+
+			 grid-column: 1/ span 1;
+			 grid-row: 7/ span 1;
+		}
+		.secondbox{
+
+			 grid-column: 2/ span 1;
+			 grid-row: 7/ span 1;
+		}
+		.thirdbox{
+
+			 grid-column: 1/ span 1;
+			 grid-row: 8/ span 1;
+		}
+		.fourthbox{
+
+			 grid-column: 2/ span 1;
+			 grid-row: 8/ span 1;
+		}
+	 }
+
+
+/* MOBILE */
+@media only screen
+  and (min-width: 0px)
+  and (max-width: 480px){
+
+	#question3 {
+
+	  display: grid;
+	 	grid-template-columns: auto auto auto auto;
+	  grid-gap: 10px;
+	}
+
+	.container-box.one{
+		width: 100;
+		height: auto;
+		grid-column: 1/ span 2;
+		grid-row: 1/ span 2;
+
+	}
+
+	.container-box.two{
+		grid-column: 1/ span 2;
+		grid-row: 3/ span 2;
+	}
+
+	.mobileHide {
+		display: none;
+	}
+
+	.container-box.four{
+
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		background: #282828;
+		grid-column: 1/ span 2;
+		grid-row: 5/ span 2;
+
+	}
+	.container-box.five{
+
+		grid-column: 1/ span 2;
+		grid-row: 7/ span 2;
+	}
+
+		.firstbox{
+
+				grid-column: 1/ span 1;
+				grid-row: 5/ span 1;
+		}
+		.secondbox{
+
+				grid-column: 2/ span 1;
+				grid-row: 5/ span 1;
+		}
+		.thirdbox{
+
+				grid-column: 1/ span 1;
+				grid-row: 6/ span 1;
+		}
+		.fourthbox{
+
+				grid-column: 2/ span 1;
+				grid-row: 6/ span 1;
+		}
+
+	}
+
+	</style>
+
+
+	<div id="question3">
+		<div class="container-box one">
+				<img src="http://responsivedemo.dealereprocess.com/resrc/media/image/929629/honda-template-15.jpg">
+
+		</div>
+
+		<div class="container-box two">
+
+			<a href="/search/">
+			<img src="http://responsivedemo.dealereprocess.com/assets/d1/img/honda-template-15-img/btn_shop.jpg">
+		</a>
+
+		</div>
+
+		<div class="container-box three">
+			<div class="mobileHide">
+			<h1>Welcome To <br>Demo Site</br></h1>
+		<span><br>SALES: 888-888-1234</br></span>
+		<span><br>SERVICE: 888-888-1234</br></span>
+		<span><br>PARTS: 888-888-1234</br></span>
+		<a href="/hours-and-directions/">
+			<span>701 Warrenville Rd, Lisle, IL 60532</span>
+		</a>
+	</div>
+		</div>
+
+		<div class="container-box four">
+			<div class="firstbox">
+				<a href="/search/">
+					<img src="http://responsivedemo.dealereprocess.com/assets/d1/img/honda-template-15-img/btn_current_specials.png">
+				</a>
+			</div>
+			<div class="secondbox">
+					<a href="/value-trade-in/">
+						<img src="http://responsivedemo.dealereprocess.com/assets/d1/img/honda-template-15-img/btn_value_trade.png">
+					</a>
+			</div>
+			<div class="thirdbox">
+					<a href="/order-parts/">
+						<img src="http://responsivedemo.dealereprocess.com/assets/d1/img/honda-template-15-img/btn_order_parts.png">
+					</a>
+			</div>
+			<div class="fourthbox">
+					<a href="/meet-our-staff/">
+						<img src="http://responsivedemo.dealereprocess.com/assets/d1/img/honda-template-15-img/btn_our_team.png">
+					</a>
+			</div>
+
+		</div>
+
+		<div class="container-box five">
+				<a href="/service-appointment/">
+				<img src="http://responsivedemo.dealereprocess.com/assets/d1/img/honda-template-15-img/btn_schedule.jpg" alt="Shop Inventory">
+			</a>
+
+		</div>
+	</div>
+
+<script>
+	</script>
+
+</body>
+</html>
