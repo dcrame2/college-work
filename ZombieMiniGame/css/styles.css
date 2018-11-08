@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+    font-style: italic;
+}
+
+body {
+    background: url("../img/zombie_background.png");
+    background-size: cover;
+}
+
+#zombie {
+    width: 200px;
+    height: 312px;
+    background-image: url("../img/walkingdead.png");
+    animation: plays 1.8s steps(10) infinite;
+    position: relative;
+    margin: auto;
+    top: 50%;
+}
+
+#wrapper {
+    width: 600px;
+    height: 200px;
+    position: relative;
+    animation: move 4s infinite;
+}
+
+
+
+
