@@ -2,6 +2,16 @@
 This is a collection of Dylan Cramers projects using HTML/CSS, Java, JavaScript, and PHP using restful services
 
 
+For Project Label GreekLifeWebsite:
+
+This project was created with a fellow classmate. During this project we were told to make a website of our choosing from scratch and make it out own with creative and fun content. We used HTML/CSS to create a Greek Life Wesbite at Illinois State University. We utilize BootStrap and this creates a responsive web page for all devices we utilize: jumbotron, carausal, etc. within BootStrap.
+
+
+For Project Labled ZombieMiniGame:
+
+This was more a fun project that was given to me. Its just a simple mini game to eat zombie brains, you control the zombie using your arrow keys and just move it to the brains. Its a real simple application but there is a lot of front-end and backend development to make the game usable using HTML/CSS.
+
+
 
 For Project Labeled Assingment6:
 
