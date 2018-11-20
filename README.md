@@ -2,6 +2,11 @@
 This is a collection of Dylan Cramers projects using HTML/CSS, Java, JavaScript, and PHP using restful services
 
 
+For project Labeled WEB:
+
+This is my personal website that I was freelancing. It is a very simple responsive webpage using media queries. It has mobile, tablet and desktop versions. It includes links to my scoial netweorks: LinkedIn, GitHub and Facebook. I also added a button to download my resume. So check it out and enjoy!
+
+
 For Project Label GreekLifeWebsite:
 
 During this project I was told to make a website of my choosing from scratch and make it on my own with creative and fun content. I used HTML/CSS to create a Greek Life Wesbite at Illinois State University. This shows important information about each chapter Illinois State offers. I utilize BootStrap and this creates a responsive web page for all devices, I utilize: jumbotron, carausal, etc. within BootStrap.
