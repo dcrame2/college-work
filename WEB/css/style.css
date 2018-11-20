@@ -1,0 +1,503 @@
+/* h1{
+    font-size: 96px;
+    font-family: Impact, fantasy;
+    text-align: center;
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+} */
+
+/* DESKTOP */
+@media screen and (min-width: 1224px){
+    h2{
+        color: #fff;
+        font-size: 32px;
+        font-family: "Brush Script MT", "Brush Script Std", cursive;
+        text-align: center;
+        left: 0;
+        line-height: 200px;
+        margin: auto;
+        margin-top: -100px;
+        position: absolute;
+        top: 70%;
+        width: 100%;
+        -webkit-animation: fadein 12s;
+    }
+    @-webkit-keyframes fadein {
+        from { opacity: 0; }
+        to   { opacity: 1; }
+    }
+
+    .button {
+        display: block;
+        width: 100%;
+        border: none;
+        background-color: #ff0000;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        color: white;
+        text-decoration: none;
+        padding: 12px;
+        font-size: 16px;
+        cursor: pointer;
+        text-align: center;
+    }
+    .button:hover{
+
+      opacity: 0.7;
+    }
+
+    p{
+      color: #fff;
+    }
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+
+    }
+
+    body{
+      background-color:#000;
+    }
+    .fly-in-text{
+      text-align: center;
+      list-style: none;
+      position: absolute;
+      width: 100%;
+      top:50%;
+      transition: translateX(-50%) translateY(-50%);
+    }
+    .fly-in-text li{
+      display: inline-block;
+
+      margin-right: 40px;
+      font-family: Impact, fantasy;
+      font-weight: 300;
+      font-size: 4em;
+      color: #fff;
+      opacity: 1;
+      transition: all 2.5s ease;
+    }
+    .fly-in-text li:last-child{
+      margin-right: 0;
+    }
+
+    .fly-in-text.hidden li{
+      opacity: 0;
+    }
+
+    .fly-in-text.hidden li:nth-child(1){
+      transform: translateX(-200px) translateY(-200px);
+    }
+    .fly-in-text.hidden li:nth-child(2){
+      transform: translateX(20px) translateY(100px);
+    }
+    .fly-in-text.hidden li:nth-child(3){
+      transform: translateX(-150px) translateY(-80px);
+    }
+    .fly-in-text.hidden li:nth-child(4){
+      transform: translateX(10px) translateY(-200px);
+    }
+    .fly-in-text.hidden li:nth-child(5){
+      transform: translateX(-300px) translateY(200px);
+    }
+    .fly-in-text.hidden li:nth-child(6){
+      transform: translateX(20px) translateY(-20px);
+    }
+    .fly-in-text.hidden li:nth-child(7){
+      transform: translateX(30px) translateY(200px);
+    }
+    .fly-in-text.hidden li:nth-child(8){
+      transform: translateX(-200px) translateY(-200px);
+    }
+    .fly-in-text.hidden li:nth-child(9){
+      transform: translateX(20px) translateY(100px);
+    }
+    .fly-in-text.hidden li:nth-child(10){
+      transform: translateX(-150px) translateY(-80px);
+    }
+    .fly-in-text.hidden li:nth-child(11){
+      transform: translateX(10px) translateY(-200px);
+    }
+    .fly-in-text.hidden li:nth-child(12){
+      transform: translateX(-300px) translateY(200px);
+    }
+
+
+    .fa {
+      position: absolute;
+      bottom: 20px;
+      font-size: 20px;
+      text-align: center;
+      text-decoration: none;
+
+    }
+
+    .fa-facebook:hover {
+      opacity: 0.6;
+      padding: 5px;
+      background: #3B5998;
+    }
+    .fa-linkedin:hover {
+      opacity: 0.6;
+      padding: 5px;
+      background: #007bb5;
+    }
+    .fa-github:hover {
+      opacity: 0.6;
+      padding: 5px;
+      background: #6cc644;
+    }
+
+
+    .fa-facebook {
+      left: 53%;
+      background: #000000;
+      color: white;
+    }
+    .fa-linkedin {
+      left: 47%;
+      background: #000000;
+      color: white;
+    }
+    .fa-github {
+      left: 50%;
+      background: #000000;
+      color: white;
+    }
+}
+
+
+/* TABLET */
+@media screen and (min-width : 481px)
+and (max-width : 1223px) {
+  h2{
+      color: #fff;
+      font-size: 20px;
+      font-family: "Brush Script MT", "Brush Script Std", cursive;
+      text-align: center;
+      left: 0;
+      line-height: 200px;
+      margin: auto;
+      margin-top: -100px;
+      position: absolute;
+      top: 61%;
+      width: 100%;
+      -webkit-animation: fadein 12s;
+  }
+  @-webkit-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  .button {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: #ff0000;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      color: white;
+      text-decoration: none;
+      padding: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+  }
+  .button:hover{
+
+    opacity: 0.7;
+  }
+
+  p{
+    color: #fff;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  body{
+    background-color:#000;
+  }
+  .fly-in-text{
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transition: translateX(-50%) translateY(-50%);
+  }
+  .fly-in-text li{
+    display: inline-block;
+
+    margin-right: 20px;
+    font-family: Impact, fantasy;
+    font-weight: 200;
+    font-size: 2em;
+    color: #fff;
+    opacity: 1;
+    transition: all 2.5s ease;
+  }
+  .fly-in-text li:last-child{
+    margin-right: 0;
+  }
+
+  .fly-in-text.hidden li{
+    opacity: 0;
+  }
+
+  .fly-in-text.hidden li:nth-child(1){
+    transform: translateX(-200px) translateY(-200px);
+  }
+  .fly-in-text.hidden li:nth-child(2){
+    transform: translateX(20px) translateY(100px);
+  }
+  .fly-in-text.hidden li:nth-child(3){
+    transform: translateX(-150px) translateY(-80px);
+  }
+  .fly-in-text.hidden li:nth-child(4){
+    transform: translateX(10px) translateY(-200px);
+  }
+  .fly-in-text.hidden li:nth-child(5){
+    transform: translateX(-300px) translateY(200px);
+  }
+  .fly-in-text.hidden li:nth-child(6){
+    transform: translateX(20px) translateY(-20px);
+  }
+  .fly-in-text.hidden li:nth-child(7){
+    transform: translateX(30px) translateY(200px);
+  }
+  .fly-in-text.hidden li:nth-child(8){
+    transform: translateX(-200px) translateY(-200px);
+  }
+  .fly-in-text.hidden li:nth-child(9){
+    transform: translateX(20px) translateY(100px);
+  }
+  .fly-in-text.hidden li:nth-child(10){
+    transform: translateX(-150px) translateY(-80px);
+  }
+  .fly-in-text.hidden li:nth-child(11){
+    transform: translateX(10px) translateY(-200px);
+  }
+  .fly-in-text.hidden li:nth-child(12){
+    transform: translateX(-300px) translateY(200px);
+  }
+
+
+  .fa {
+    position: absolute;
+    bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  .fa-facebook:hover {
+    opacity: 0.6;
+    padding: 5px;
+    background: #3B5998;
+  }
+  .fa-linkedin:hover {
+    opacity: 0.6;
+    padding: 5px;
+    background: #007bb5;
+  }
+  .fa-github:hover {
+    opacity: 0.6;
+    padding: 5px;
+    background: #6cc644;
+  }
+
+
+  .fa-facebook {
+    left: 55%;
+    background: #000000;
+    color: white;
+  }
+  .fa-linkedin {
+    left: 45%;
+    background: #000000;
+    color: white;
+  }
+  .fa-github {
+    left: 50%;
+    background: #000000;
+    color: white;
+  }
+
+
+}
+
+
+/* MOBILE */
+@media only screen
+and (min-width: 0px)
+and (max-width: 480px){
+  h2{
+      color: #fff;
+      font-size: 14px;
+      font-family: "Brush Script MT", "Brush Script Std", cursive;
+      text-align: center;
+      left: 0;
+      line-height: 200px;
+      margin: auto;
+      margin-top: -100px;
+      position: absolute;
+      top: 58%;
+      width: 100%;
+      -webkit-animation: fadein 12s;
+  }
+  @-webkit-keyframes fadein {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+  }
+
+  .button {
+      display: block;
+      width: 100%;
+      border: none;
+      background-color: #ff0000;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      color: white;
+      text-decoration: none;
+      padding: 12px;
+      font-size: 16px;
+      cursor: pointer;
+      text-align: center;
+  }
+  .button:hover{
+
+    opacity: 0.7;
+  }
+
+  p{
+    color: #fff;
+  }
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  body{
+    background-color:#000;
+  }
+  .fly-in-text{
+    text-align: center;
+    list-style: none;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transition: translateX(-50%) translateY(-50%);
+  }
+  .fly-in-text li{
+    display: inline-block;
+
+    margin-right: 10px;
+    font-family: Impact, fantasy;
+    font-weight: 200;
+    font-size: 1.3em;
+    color: #fff;
+    opacity: 1;
+    transition: all 2.5s ease;
+  }
+  .fly-in-text li:last-child{
+    margin-right: 0;
+  }
+
+  .fly-in-text.hidden li{
+    opacity: 0;
+  }
+
+  .fly-in-text.hidden li:nth-child(1){
+    transform: translateX(-200px) translateY(-200px);
+  }
+  .fly-in-text.hidden li:nth-child(2){
+    transform: translateX(20px) translateY(100px);
+  }
+  .fly-in-text.hidden li:nth-child(3){
+    transform: translateX(-150px) translateY(-80px);
+  }
+  .fly-in-text.hidden li:nth-child(4){
+    transform: translateX(10px) translateY(-200px);
+  }
+  .fly-in-text.hidden li:nth-child(5){
+    transform: translateX(-300px) translateY(200px);
+  }
+  .fly-in-text.hidden li:nth-child(6){
+    transform: translateX(20px) translateY(-20px);
+  }
+  .fly-in-text.hidden li:nth-child(7){
+    transform: translateX(30px) translateY(200px);
+  }
+  .fly-in-text.hidden li:nth-child(8){
+    transform: translateX(-200px) translateY(-200px);
+  }
+  .fly-in-text.hidden li:nth-child(9){
+    transform: translateX(20px) translateY(100px);
+  }
+  .fly-in-text.hidden li:nth-child(10){
+    transform: translateX(-150px) translateY(-80px);
+  }
+  .fly-in-text.hidden li:nth-child(11){
+    transform: translateX(10px) translateY(-200px);
+  }
+  .fly-in-text.hidden li:nth-child(12){
+    transform: translateX(-300px) translateY(200px);
+  }
+
+
+  .fa {
+    position: absolute;
+    bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+
+  .fa-facebook:hover {
+    opacity: 0.6;
+    padding: 5px;
+    background: #3B5998;
+  }
+  .fa-linkedin:hover {
+    opacity: 0.6;
+    padding: 5px;
+    background: #007bb5;
+  }
+  .fa-github:hover {
+    opacity: 0.6;
+    padding: 5px;
+    background: #6cc644;
+  }
+
+
+  .fa-facebook {
+    left: 58%;
+    background: #000000;
+    color: white;
+  }
+  .fa-linkedin {
+    left: 42%;
+    background: #000000;
+    color: white;
+  }
+  .fa-github {
+    left: 50%;
+    background: #000000;
+    color: white;
+  }
+
+
+
+}
