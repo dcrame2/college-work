@@ -4,7 +4,7 @@ This is a collection of Dylan Cramers projects using HTML/CSS, Java, JavaScript,
 
 For Project Label GreekLifeWebsite:
 
-This project was created with a fellow classmate. During this project we were told to make a website of our choosing from scratch and make it out own with creative and fun content. We used HTML/CSS to create a Greek Life Wesbite at Illinois State University. We utilize BootStrap and this creates a responsive web page for all devices we utilize: jumbotron, carausal, etc. within BootStrap.
+During this project I was told to make a website of my choosing from scratch and make it on my own with creative and fun content. I used HTML/CSS to create a Greek Life Wesbite at Illinois State University. This shows important information about each chapter Illinois State offers. I utilize BootStrap and this creates a responsive web page for all devices, I utilize: jumbotron, carausal, etc. within BootStrap.
 
 
 For Project Labled ZombieMiniGame:
