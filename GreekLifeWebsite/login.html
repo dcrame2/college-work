@@ -1,206 +1,275 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
     <style>
-
-                    body{
-
-                    background-color: #BEBEBE;
-                    }
-                  #demo {
-                    
-                    height: 600px;
-                    width: 400px;
-                    margin-right: auto;
-                    margin-left: auto;
-                    margin-top: 0px;
-                    border-top-left-radius: 10px;
-                    border-top-right-radius: 10px;
-                    padding: 0px;
-                    text-align:center;
-                    }
-                   label {
-                    font-family: Georgia, "Times New Roman", Times, serif;
-                    font-size: 18px;
-                    color: #333;
-                    height: 20px;
-                    width: 400px;
-                    margin-top: 10px;
-                    margin-left: 10px;
-                    text-align: right;
-                    margin-right: 15px;
-                    float:left;
-                   }
-                   input {
-                    height: 25px;
-                    width: 300px;
-                    border: 1px solid #000;
-                    margin-top: 10px;
-                   }
-
-
+      body {
+        background-color: #bebebe;
+      }
+      #demo {
+        height: 600px;
+        width: 400px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 0px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 0px;
+        text-align: center;
+      }
+      label {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 18px;
+        color: #333;
+        height: 20px;
+        width: 400px;
+        margin-top: 10px;
+        margin-left: 10px;
+        text-align: right;
+        margin-right: 15px;
+        float: left;
+      }
+      input {
+        height: 25px;
+        width: 300px;
+        border: 1px solid #000;
+        margin-top: 10px;
+      }
     </style>
-
-  
-
-
-</head>
-<body>
- 
+  </head>
+  <body>
     <form>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
-            <a class="navbar-brand" href="index.html">Meet the Greeks at Illinois State Univeristy</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="meetthechapter.html">Meet the Chapter</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="councils.html">Councils</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="login.html">Sign Up</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+        <a class="navbar-brand" href="index.html"
+          >Meet the Greeks at Illinois State Univeristy</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="meetthechapter.html"
+                >Meet the Chapter</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="councils.html">Councils</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="login.html">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </form>
-
-
-   
 
     <form id="frm1" action="/action_page.php">
-        <div class="container">
+      <div class="container">
+        <center>
+          <h1>Sign Up Here!</h1>
 
-            <center>
-                <h1>Sign Up Here!</h1>
+          <p></p>
+          <label><b>First Name: </b></label>
+          <input
+            type="text"
+            id="fname"
+            placeholder="Enter First Name"
+            name="fname"
+            required
+          />
 
+          <p></p>
+          <label><b>Last Name: </b></label>
+          <input
+            type="text"
+            id="lname"
+            placeholder="Enter Last Name"
+            name="lname"
+            required
+          />
 
-                <p></p>
-                <label><b>First Name: </b></label>
-                <input type="text" id="fname" placeholder="Enter First Name" name="fname" required>
+          <p></p>
+          <label><b>ULID: </b></label>
+          <input
+            type="text"
+            id="ulid"
+            placeholder="Enter ULID (email)"
+            name="ulid"
+            required
+          />
 
-                <p></p>
-                <label><b>Last Name: </b></label>
-                <input type="text" id="lname" placeholder="Enter Last Name" name="lname" required>
+          <p></p>
+          <label><b>UID: </b></label>
+          <input
+            type="text"
+            maxlength="9"
+            size="9"
+            id="uid"
+            placeholder="Enter UID (numbers)"
+            name="uid"
+            required
+          />
 
-                <p></p>
-                <label><b>ULID: </b></label>
-                <input type="text" id="ulid" placeholder="Enter ULID (email)" name="ulid" required>
+          <p></p>
+          <label><b>Organization: </b></label>
 
-                <p></p>
-                <label><b>UID: </b></label>
-                <input type="text" maxlength="9" size="9" id="uid" placeholder="Enter UID (numbers)" name="uid" required>
+          <select required id="org">
+            <option value="--">--</option>
+            <option value="Acacia">Acacia</option>
+            <option value="Alpha Epsilon Pi (Colony)">
+              Alpha Epsilon Pi (Colony)
+            </option>
+            <option value="Alpha Gamma Rho">Alpha Gamma Rho</option>
+            <option value="Alpha Phi Alpha<">Alpha Phi Alpha</option>
+            <option value="Alpha Psi Lambda (Co-Ed Fraternity)">
+              Alpha Psi Lambda (Co-Ed Fraternity)
+            </option>
+            <option value="Farmhouse">Farmhouse</option>
+            <option value="Kappa Alpha Psi">Kappa Alpha Psi</option>
+            <option value="Omega Delta Phi (Colony)">
+              Omega Delta Phi (Colony)
+            </option>
+            <option value="Phi Beta Sigma">Phi Beta Sigma</option>
+            <option value="Phi Gamma Delta (FIJI)">
+              Phi Gamma Delta (FIJI)
+            </option>
+            <option value="Phi Kappa Psi">Phi Kappa Psi</option>
+            <option value="Phi Mu Alpha Sinfonia">Phi Mu Alpha Sinfonia</option>
+            <option value="Pi Kappa Phi">Pi Kappa Phi</option>
+            <option value="Sigma Lambda Beta">Sigma Lambda Beta</option>
+            <option value="Sigma Nu">Sigma Nu</option>
+            <option value="Sigma Pi (Colony)">Sigma Pi (Colony)</option>
+            <option value="Alpha Delta Pi">Alpha Delta Pi</option>
+            <option value="Alpha Gamma Delta">Alpha Gamma Delta</option>
+            <option value="Alpha Omicron Pi">Alpha Omicron Pi</option>
+            <option value="Chi Omega">Chi Omega</option>
+            <option value="Delta Delta Delta">Delta Delta Delta</option>
+            <option value="Delta Sigma Thet">Delta Sigma Theta</option>
+            <option value="Delta Zeta">Delta Zeta</option>
+            <option value="Gamma Phi Beta">Gamma Phi Beta</option>
+            <option value="Gamma Phi Omega">Gamma Phi Omega</option>
+            <option value="Omega Phi Beta">Omega Phi Beta</option>
+            <option value="Phi Sigma Sigma">Phi Sigma Sigma</option>
+            <option value="Pi Beta Phi">Pi Beta Phi</option>
+            <option value="Sigma Alpha">Sigma Alpha</option>
+            <option value="Sigma Gamma Rho">Sigma Gamma Rho</option>
+            <option value="Sigma Lambda Gamma">Sigma Lambda Gamma</option>
+            <option value="Sigma Sigma Sigma">Sigma Sigma Sigma</option>
+            <option value="Zeta Phi Beta">Zeta Phi Beta</option>
+            <option value="Zeta Tau Alpha">Zeta Tau Alpha</option>
+          </select>
 
+          <p></p>
+          <label><b>Academic Year: </b></label>
+          <select required id="year">
+            <option value="--">--</option>
+            <option value="Freshmen">Freshmen</option>
+            <option value="Sophomore">Sophomore</option>
+            <option value="Junior">Junior</option>
+            <option value="Senior">Senior</option>
+            <option value="Graduate Student">Graduate Student</option>
+          </select>
 
-                <p></p>
-                <label><b>Organization: </b></label>
+          <p></p>
+          <label><b>GPA: </b></label>
+          <input
+            type="text"
+            id="gpa"
+            placeholder="Enter Cumm. GPA"
+            name="gpa"
+            required
+          />
 
-                <select required id="org">
-                    <option value="--">--</option>
-                    <option value="Acacia">Acacia</option>
-                    <option value="Alpha Epsilon Pi (Colony)">Alpha Epsilon Pi (Colony)</option>
-                    <option value="Alpha Gamma Rho">Alpha Gamma Rho</option>
-                    <option value="Alpha Phi Alpha<">Alpha Phi Alpha</option>
-                    <option value="Alpha Psi Lambda (Co-Ed Fraternity)">Alpha Psi Lambda (Co-Ed Fraternity)</option>
-                    <option value="Farmhouse">Farmhouse</option>
-                    <option value="Kappa Alpha Psi">Kappa Alpha Psi</option>
-                    <option value="Omega Delta Phi (Colony)">Omega Delta Phi (Colony)</option>
-                    <option value="Phi Beta Sigma">Phi Beta Sigma</option>
-                    <option value="Phi Gamma Delta (FIJI)">Phi Gamma Delta (FIJI)</option>
-                    <option value="Phi Kappa Psi">Phi Kappa Psi</option>
-                    <option value="Phi Mu Alpha Sinfonia">Phi Mu Alpha Sinfonia</option>
-                    <option value="Pi Kappa Phi">Pi Kappa Phi</option>
-                    <option value="Sigma Lambda Beta">Sigma Lambda Beta</option>
-                    <option value="Sigma Nu">Sigma Nu</option>
-                    <option value="Sigma Pi (Colony)">Sigma Pi (Colony)</option>
-                    <option value="Alpha Delta Pi">Alpha Delta Pi</option>
-                    <option value="Alpha Gamma Delta">Alpha Gamma Delta</option>
-                    <option value="Alpha Omicron Pi">Alpha Omicron Pi</option>
-                    <option value="Chi Omega">Chi Omega</option>
-                    <option value="Delta Delta Delta">Delta Delta Delta</option>
-                    <option value="Delta Sigma Thet">Delta Sigma Theta</option>
-                    <option value="Delta Zeta">Delta Zeta</option>
-                    <option value="Gamma Phi Beta">Gamma Phi Beta</option>
-                    <option value="Gamma Phi Omega">Gamma Phi Omega</option>
-                    <option value="Omega Phi Beta">Omega Phi Beta</option>
-                    <option value="Phi Sigma Sigma">Phi Sigma Sigma</option>
-                    <option value="Pi Beta Phi">Pi Beta Phi</option>
-                    <option value="Sigma Alpha">Sigma Alpha</option>
-                    <option value="Sigma Gamma Rho">Sigma Gamma Rho</option>
-                    <option value="Sigma Lambda Gamma">Sigma Lambda Gamma</option>
-                    <option value="Sigma Sigma Sigma">Sigma Sigma Sigma</option>
-                    <option value="Zeta Phi Beta">Zeta Phi Beta</option>
-                    <option value="Zeta Tau Alpha">Zeta Tau Alpha</option>
-
-                </select>
-
-                <p></p>
-                <label><b>Academic Year: </b></label>
-                <select required id="year">
-                    <option value="--">--</option>
-                    <option value="Freshmen">Freshmen</option>
-                    <option value="Sophomore">Sophomore</option>
-                    <option value="Junior">Junior</option>
-                    <option value="Senior">Senior</option>
-                    <option value="Graduate Student">Graduate Student</option>
-                </select>
-
-                <p></p>
-                <label><b>GPA: </b></label>
-                <input type="text" id="gpa" placeholder="Enter Cumm. GPA" name="gpa" required>
-
-
-
-                <center><button id="function">Sign Up </button></center>
-            </center>
-            </div>
+          <center><button id="function">Sign Up</button></center>
+        </center>
+      </div>
     </form>
-   
 
-   
-    
     <p id="demo"></p>
 
+    <script>
+      function myFunction() {
+        var fname = document.getElementById("fname").value;
+        var lname = document.getElementById("lname").value;
+        var ulid = document.getElementById("ulid").value;
+        var uid = document.getElementById("uid").value;
+        var org = document.getElementById("org").value;
+        var year = document.getElementById("year").value;
+        var gpa = document.getElementById("gpa").value;
 
-        <script>
+        var html =
+          "<p><center><p><b>First Name: </b>" +
+          fname +
+          "</p>" +
+          "<p><b>Last Name: </b>" +
+          lname +
+          "</p>" +
+          "<p><b>ULID: </b>" +
+          ulid +
+          "</p>" +
+          "<p><b>UID:</b>" +
+          uid +
+          "</p>" +
+          "<p><b>Organization: </b>" +
+          org +
+          "</p>" +
+          "<p><b> Year: </b>" +
+          year +
+          "</p>" +
+          "<p><b>GPA: </b>" +
+          gpa +
+          "</p>" +
+          "<p><b>You have successfully been signed up for your organization!</p></b></center></p>";
 
-        function myFunction() {
+        document.getElementById("demo").innerHTML = html;
+      }
 
-       
+      document.getElementById("function").addEventListener("click", myFunction);
+    </script>
 
-            var fname = document.getElementById('fname').value;
-            var lname = document.getElementById('lname').value;
-            var ulid = document.getElementById('ulid').value;
-            var uid = document.getElementById('uid').value;
-            var org = document.getElementById('org').value;
-            var year = document.getElementById('year').value;
-            var gpa = document.getElementById('gpa').value;
-
-         
-            var html = "<p><center><p><b>First Name: </b>" + fname + "</p>" + "<p><b>Last Name: </b>" + lname + "</p>" + "<p><b>ULID: </b>" + ulid + "</p>" + "<p><b>UID:</b>"  + uid + "</p>" + "<p><b>Organization: </b>" + org + "</p>" + "<p><b> Year: </b>" + year + "</p>" + "<p><b>GPA: </b>" + gpa + "</p>" + "<p><b>You have successfully been signed up for your organization!</p></b></center></p>";
-
-            document.getElementById('demo').innerHTML = html;
-        }
-
-        document.getElementById('function').addEventListener('click', myFunction);
-            
-        </script>
-
-    
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
+      integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
+      integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
